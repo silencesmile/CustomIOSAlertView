@@ -199,7 +199,7 @@ CGFloat buttonSpacerHeight = 0;
     CGSize screenSize = [self countScreenSize];
     CGSize dialogSize = [self countDialogSize];
 
-    // For the black background
+    // For the black background  调整弹出框的高度
     [self setFrame:CGRectMake(0, 0, screenSize.width, screenSize.height)];
 
     // This is the dialog's container; we attach the custom content and the buttons to this one
